@@ -1,0 +1,66 @@
+[{
+    "_id": {
+      "$oid": "6620476e9774a0819194ef19"
+    },
+    "title": "Sirena",
+    "description": "Muñeca tejida con relleno de vellon",
+    "price": "$4000",
+    "code": "720",
+    "category": "Amigurumis",
+    "stock": 15
+  },
+  {
+    "_id": {
+      "$oid": "6620476e9774a0819194ef1a"
+    },
+    "title": "Coneja Malvina",
+    "description": "Coneja tejida a mano con relleno de vellon",
+    "price": "$5200",
+    "code": "721",
+    "category": "Amigurumis",
+    "stock": 12
+  },
+  {
+    "_id": {
+      "$oid": "6620476e9774a0819194ef1b"
+    },
+    "title": "Jirafa",
+    "description": "jirafa tejida a mano",
+    "price": "$4500",
+    "code": "722",
+    "category": "Amigurumis",
+    "stock": 10
+  },
+  {
+    "_id": {
+      "$oid": "6620476e9774a0819194ef1c"
+    },
+    "title": "Llamita",
+    "description": "Llamita tejida a mano",
+    "price": "$4000",
+    "code": "723",
+    "category": "Amigurumis",
+    "stock": 8
+  },
+  {
+    "_id": {
+      "$oid": "6620476e9774a0819194ef1d"
+    },
+    "title": "Dragon",
+    "description": "Dragon tejida a mano",
+    "price": "$6000",
+    "code": "724",
+    "category": "Amigurumis",
+    "stock": 7
+  },
+  {
+    "_id": {
+      "$oid": "6620476e9774a0819194ef1e"
+    },
+    "title": "Rufina",
+    "description": "Almohada tejida a mano",
+    "price": "$7500",
+    "code": "724",
+    "category": "Amigurumis",
+    "stock": 5
+  }]

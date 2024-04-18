@@ -107,9 +107,9 @@ const initPassport = () => {
 
     // Creamos estrategia para autenticación externa con Github
     passport.use('githubAuth', new GithubStrategy({
-        clientID: config.githubAuth.clientId,
-        clientSecret: config.githubAuth.clientSecret,
-        callbackURL: config.githubAuth.callbackURL,
+        clientID: config.GITHUB_AUTH.clientId,
+        clientSecret: config.GITHUB_AUTH.clientSecret,
+        callbackURL: config.GITHUB_AUTH.callbackURL,
         passReqToCallback: true
     }, verifyGithub));
         

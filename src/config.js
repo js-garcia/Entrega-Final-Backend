@@ -19,7 +19,7 @@ switch (commandLineOptions.opts().mode) {
         dotenv.config({ path: './.env'});
 }
 
-/*const config = {
+const config = {
    // PORT: commandLineOptions.opts().port || process.env.PORT || 5500,
     mongoose_URL: process.env.MONGOOSE_URI,
     SECRET_KEY: process.env.SECRET_KEY,
@@ -32,9 +32,9 @@ switch (commandLineOptions.opts().mode) {
     //MODE: commandLineOptions.opts().mode || 'devel',
     GOOGLE_APP_EMAIL: process.env.GOOGLE_APP_EMAIL,
     GOOGLE_APP_PASS: process.env.GOOGLE_APP_PASS
-};*/
+};
 
-const config = {
+const configApp = {
     __DIRNAME: url.fileURLToPath(new URL('.', import.meta.url)),
     APP_PORT: 8080,
     API_PAYMENTS_PREFIX: 'api/payments',
